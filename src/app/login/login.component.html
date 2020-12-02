@@ -1,1 +1,17 @@
-<p>login works!</p>
+<div>
+    <mat-form-field class="example-full-width">
+        <mat-label>Usuario</mat-label>
+        <input matInput placeholder="Usuario" minlength="3" #name>
+    </mat-form-field>
+
+    <mat-form-field class="example-full-width">
+        <mat-label>Password</mat-label>
+        <input matInput placeholder="Password" type="password" minlength="3" >
+    </mat-form-field>
+
+    <button mat-raised-button color="primary">Login</button>
+</div>
+
+<!-- <div *ngIf="name.errors.minlength">
+    Demasiado corto
+</div> -->
